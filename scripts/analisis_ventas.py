@@ -38,7 +38,7 @@ plt.plot(df["sales_date"], df["sales_amount"])
 plt.title("Ventas diarias 2024")
 plt.xlabel("Fecha")
 plt.ylabel("Monto de ventas")
-plt.xticks(rotation=45)
+lt.xticks(rotation=45)
 plt.tight_layout()
 plt.savefig("resultados/ventas_diarias.png")
 
